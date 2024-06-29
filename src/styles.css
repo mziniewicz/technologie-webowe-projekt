@@ -1,0 +1,62 @@
+label {
+  display: block;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+button {
+  padding: 5px 15px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  font-weight: 600;
+}
+
+fieldset {
+  border-radius: 3px;
+  border-color: #ddd;
+}
+
+legend {
+  font-weight: 600;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: #333;
+}
+
+.DeleteButton {
+  background-color: #ff3333;
+}
+
+.DeleteButton:hover {
+  background-color: #b22222;
+}
+
+.AddButton {
+  background-color: #006ae4;
+}
+
+.AddButton:hover {
+  background-color: #0056b3;
+}
